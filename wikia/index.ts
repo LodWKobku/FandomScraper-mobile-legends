@@ -18,6 +18,7 @@ import { Smurf } from './smurf';
 import { RickAndMorty } from './rick-and-morty';
 import { DeathParade } from './death-parade';
 import { Fate } from './fate';
+import { Mlbb } from './mobile-legends';
 
 export const Schemas: Record<TAvailableWikis, any> = {
     'berserk': Berserk,
@@ -37,5 +38,6 @@ export const Schemas: Record<TAvailableWikis, any> = {
     'shiki': Shiki,
     'shingeki-no-kyojin': Shingeki,
     "smurf": Smurf,
-    'fate': Fate
+    'fate': Fate,
+    'mobile-legends': Mlbb
 } as const;

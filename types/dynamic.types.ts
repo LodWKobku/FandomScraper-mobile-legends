@@ -18,6 +18,7 @@ export const availableWikis = [
   "smurf",
   'promised-neverland',
   'fate',
+  'mobile-legends',
 ];
 
 export type TAvailableWikis = typeof availableWikis[number];
