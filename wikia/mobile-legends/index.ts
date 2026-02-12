@@ -1,5 +1,5 @@
-import { BerserkEN } from "./schemas";
+import { MlbbEN } from "./schemas";
 
-export const Berserk = {
-    en: BerserkEN
+export const Mlbb = {
+    en: MlbbEN
 };

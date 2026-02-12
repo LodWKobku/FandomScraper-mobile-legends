@@ -1,4 +1,4 @@
-const BerserkENDataSource: IDataSource = {
+const MlbbENDataSource: IDataSource = {
     gender: 'Gender',
     species: 'Kind',
     images: {
@@ -16,4 +16,4 @@ const BerserkENDataSource: IDataSource = {
     eyeColor: 'Eye color'
 };
 
-export { BerserkENDataSource };
+export { MlbbENDataSource };
