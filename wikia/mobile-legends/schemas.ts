@@ -1,8 +1,10 @@
 import { MlbbENDataSource } from "./data-source";
 
 const MlbbEN: ISchema = {
-    url: 'https://berserk.fandom.com/wiki/Category:Fantasia_Arc_Characters',
-    pageFormat: 'classic',
+    url: 'https://mobile-legends.fandom.com/wiki/List_of_heroes',
+    pageFormat: {
+	    selector: `.wikitable tbody tr td:nth-child(2) a`
+    },
     dataSource: MlbbENDataSource
 };
 

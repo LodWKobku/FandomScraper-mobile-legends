@@ -1,4 +1,5 @@
 const MlbbENDataSource: IDataSource = {
+    name: 'Name',
     gender: 'Gender',
     species: 'Kind',
     images: {
